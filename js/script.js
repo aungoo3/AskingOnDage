@@ -31,11 +31,11 @@ if (correctAnswer){
     let dateTime = prompt('Enter your available date and time.');
 
     main.innerHTML = `
-    <h2>Your available date and time for our date is on ${dateTime}.</h2>
+    <h1>Your available day and time for our date is on ${dateTime}. See you soon 😊</h1>
     `;
   } else {
     main.innerHTML = `
-    <h2>Your available day and time for our date is on ${dateTime}.</h2>
+    <h1>Your available day and time for our date is on ${dateTime}. See you soon 😊 </h1>
     `;
   }
 }
