@@ -24,7 +24,7 @@ if ( message.toUpperCase() === answer ) {
 } 
 
 if (correctAnswer){
-  let dateTime = prompt('Enter your available date and time.');
+  let dateTime = prompt('Enter your available day and time.');
   
   if (dateTime === ''){
     alert('You must enter your available date and time.');
